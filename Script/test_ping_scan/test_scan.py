@@ -4,8 +4,7 @@ import ipaddress
 from posix import ST_RELATIME
 import netifaces
 from netaddr import IPAddress
-from tcping import Ping
-import os
+
 
 
 
