@@ -3,7 +3,7 @@ serverSocket = socket(AF_INET, SOCK_DGRAM)
 serverSocket.bind(('', 54545))
 
 while True:
-    rand = random.randint(0, 55)
+    serverSocket.timeout
     message, address = serverSocket.recvfrom(1024)
     #messages includes a sequence number and current timestapme
     print(message.decode("utf-8"))
