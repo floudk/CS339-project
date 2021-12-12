@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckFragment"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/check_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="150dp"
+        android:background="@drawable/btn_check"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:text="Check in" />
+
+    <EditText
+        android:id="@+id/my_input"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/btn_input"
+        android:cursorVisible="false"
+        android:gravity="center"
+        android:hint="请输入姓名..."
+        android:textColor="@color/white"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColorHint="@color/white"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/PORT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="479dp"
+        android:background="#979233"
+        android:cursorVisible="false"
+        android:visibility="invisible"
+        android:hint="port"
+        android:selectAllOnFocus="true"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/to_teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#573AAD" />
+
+
+</RelativeLayout>
