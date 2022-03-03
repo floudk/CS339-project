@@ -1,6 +1,6 @@
 # 基于Wifi Fingerprint的防作弊签到系统
 
- 组员： 潘家琦   李昕然  卿云帆
+ 组员： [AbigailWilliams1](https://github.com/AbigailWilliams1)   [Electronlxr](https://github.com/Electronlxr)  [floudk](https://github.com/floudk)
 
 ## 文件组成说明
 
@@ -22,7 +22,7 @@ cd .\SourceCode\Android\CheckIn\app\src\main
 │               ├── CheckFragment.java     	       //学生端主要代码文件文件，主要负责学生端的相关信息收集和网络传输
 │               ├── Classmates.java             	//教师端使用的学生类数据结构，主要是和服务器交互后进行信息更新
 │               ├── GlobalClass.java                     //学生类数据结构的再次封装，使其成为一个静态的全局变量，以便调用
- |		   ├── CheckedFragment.java           //教师端已签到学生页面，显示已签到学生数据
+|		             ├── CheckedFragment.java           //教师端已签到学生页面，显示已签到学生数据
 │               ├── MaycheckedFragment.java     //教师端签到存疑学生页面，显示签到存疑学生数据
 │               ├── UncheckedFragment.java        //教师端未签到学生页面，显示未签到学生数据
 │               ├── MyUUID.java                             //设备唯一标识码获取相关文件
@@ -106,18 +106,18 @@ cd .\SourceCode\Android\CheckIn\app\src\main
 
 ```bash
 ├── PPT      // 安卓项目文件夹，上一模块已说明
-│      ├── QuickIn.pptx    //演示用幻灯片
+│   ├── QuickIn.pptx    //演示用幻灯片
 ├── SourceCode     //  后端文件夹
 ├── 报告  
-│      ├── report.docx   //word文档
- |       ├── report.pdf     //PDF文档
- └── app-debug.apk   //Android apk生成文件
+│   ├── report.docx   //word文档
+|   ├── report.pdf     //PDF文档
+└── app-debug.apk   //Android apk生成文件
 ```
 
 ## 其他说明
 
 安卓App需要对应权限，在安装测试使用时，可能需要手动确认定位权限和网络权限。
 
-项目以打包上传[Github]()
+<!-- 项目以打包上传[Github]()
 
-**感谢孔老师和助教的关心和支持，对代码和文件有任何疑问，可以随时联系我们。**
+**感谢老师和助教的关心和支持，对代码和文件有任何疑问，可以随时联系我们。** -->
